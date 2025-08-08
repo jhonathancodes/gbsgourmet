@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
 
 nav.nav-bar .nav-list ul li a {
-    color: black; /* Especificar a cor desejada */
+    color: black; 
     text-decoration: none; 
     font-size: 1.15rem;
 }
@@ -117,7 +117,7 @@ header {
     }
 
     .mobile-menu-icon img.icon {
-        width: 48px; /* Reduz o tamanho do ícone */
+        width: 48px; 
         height: 48px;
     }
 
@@ -168,9 +168,9 @@ header {
 }
 
 .conteudo {
-    min-height: 90vh; /* Altura mínima */
+    min-height: 90vh; 
     width: 100%;
-    height: auto; /* Deixe a altura automática */
+    height: auto;
     background: url(../imagens/header.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -179,18 +179,18 @@ header {
     box-shadow: 0px 3px 10px #464646;
     background-attachment: fixed;
     margin-bottom: 8px;
-    overflow: auto; /* Permite rolagem se necessário */
-    display: flex; /* Flexbox para centralizar o conteúdo */
-    flex-direction: column; /* Organiza os itens em coluna */
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
+    overflow: auto; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 @media (max-width: 768px) {
     .conteudo {
         background-image: url(../imagens/headermobal.png);
-        min-height: 160vh; /* Altura mínima para telas pequenas */
-        background-position: center; /* Centraliza a imagem */
+        min-height: 160vh; 
+        background-position: center; 
         
     }
 }
@@ -198,11 +198,11 @@ header {
 .conteudo h1 {
     font-family: 'Outfit', sans-serif;
     color: white;
-    font-size: 45px; /* Tamanho fixo */
+    font-size: 45px; 
     letter-spacing: 10px;
     text-transform: uppercase;
     text-align: center;
-    padding: 60px 0; /* Padding fixo */
+    padding: 60px 0; 
 }
 
 .menu {
@@ -220,12 +220,12 @@ header {
 .menu a {
     background-color: #f6dde6;
     display: block;
-    padding: 40px 80px; /* Padding fixo */
+    padding: 40px 80px; 
     text-decoration: none;
     border-radius: 40px;
     color: #4f3514;
     font-weight: bold;
-    font-size: 20px; /* Tamanho fixo */
+    font-size: 20px; 
 }
 
 .menu a:hover {
@@ -283,7 +283,7 @@ header {
 
 .receitas-e-dicas {
     padding: 40px 20px;
-    color: #C71585; /* Rosa escuro */
+    color: #C71585; 
     text-align: center;
 }
 
@@ -295,23 +295,23 @@ header {
 }
 
 .item {
-    border: 1px solid #C71585; /* Borda rosa */
+    border: 1px solid #C71585;
     border-radius: 8px;
     padding: 20px;
-    width: 300px; /* Largura fixa, mas responsiva */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 h2 {
-    font-size: 2em; /* Tamanho do título */
+    font-size: 2em; 
 }
 
 h3 {
-    font-size: 1.5em; /* Tamanho dos subtítulos */
+    font-size: 1.5em; 
 }
 
 ul {
-    list-style-type: none; /* Remove marcadores da lista */
+    list-style-type: none; 
     padding: 0;
 }
 
@@ -325,7 +325,7 @@ strong {
 
 @media (max-width: 768px) {
     .item {
-        width: 90%; /* Largura maior em telas menores */
+        width: 90%; 
     }
 }
 
@@ -349,14 +349,14 @@ strong {
     margin: 20px 0;
     position: relative;
     display: inline-block;
-    animation: wave 1.5s infinite; /* Mantém a animação */
-    padding: 15px 20px; /* Espaçamento interno */
-    background-color: #fff3e6; /* Fundo em um tom pastel suave */
-    border-radius: 10px; /* Bordas arredondadas */
-    color: #C71585; /* Cor do texto em um tom de rosa */
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); /* Sombra do texto para destaque */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidade */
-    border: 2px solid #ffb3b3; /* Borda sutil em tom pastel */
+    animation: wave 1.5s infinite; 
+    padding: 15px 20px; 
+    background-color: #fff3e6; 
+    border-radius: 10px; 
+    color: #C71585; 
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    border: 2px solid #ffb3b3;
 }
 
 @keyframes wave {
@@ -379,31 +379,31 @@ li {
 }
 
 .final {
-    display: flex; /* Para alinhar os ícones */
-    justify-content: center; /* Centraliza os ícones horizontalmente */
-    margin-top: 10px; /* Espaço acima dos ícones */
+    display: flex; 
+    justify-content: center; 
+    margin-top: 10px; 
 }
 
 .icone {
     color: white;
     font-size: 30px;
-    margin-right: 15px; /* Espaçamento entre os ícones */
+    margin-right: 15px; 
 }
 
 .icone:last-child {
-    margin-right: 0; /* Remove o espaçamento do último ícone */
+    margin-right: 0; 
 }
 
 .icone:hover {
-    color: #ccc; /* Efeito ao passar o mouse */
+    color: #ccc;
 }
 
 .footer {
-    background-color: #b56e8b; /* Cor de fundo */
-    text-align: center; /* Centraliza o texto */
-    padding: 10px 0; /* Espaçamento acima e abaixo */
-    font-size: 0.9rem; /* Tamanho da fonte */
-    color: white; /* Cor do texto */
+    background-color: #b56e8b; 
+    text-align: center;
+    padding: 10px 0; 
+    font-size: 0.9rem; 
+    color: white; 
 }
 
 .teste {
@@ -426,4 +426,5 @@ li {
 .teste i:hover {
     color: gray;
     transition: color 0.9s ease;
+
 }
