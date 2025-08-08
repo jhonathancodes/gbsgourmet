@@ -11,6 +11,4 @@ function menuShow() {
 
 function menuShow() {
     const menu = document.querySelector('.mobile-menu');
-    menu.classList.toggle('open'); // Alterna a classe 'open'
-}
-
+    menu.classList.toggle('open');
